@@ -2,7 +2,10 @@ class Vps
   def add(a,b)
     return a+b
   end
+  def sub(k,l)
+    return k-l
+  end
 end
 
 vpsobj=Vps.new
-vpsobj.add 4,66
+puts vpsobj.add 4,66
